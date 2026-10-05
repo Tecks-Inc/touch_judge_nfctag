@@ -1,5 +1,8 @@
 # touch_judge_nfctag
 【公式】弊社NFCタグ対応・PC/SCリーダー用カード判定Pythonサンプルコード
+|||
+|---|---|
+|<img width="80%" height="80%" alt="B843624F-621A-4E97-A983-FBBE806A87D7" src="https://github.com/user-attachments/assets/c42ff1a7-f521-418f-8170-1a9daa35637b" />|<img width="80%" height="80%" alt="5074DA69-0B87-4DA6-8112-E4AE2DF49E2A" src="https://github.com/user-attachments/assets/195db8b2-aca0-4c03-83c8-3aa2462df72b" />|
 
 # touch_judge_nfctag.py の使い方
 
@@ -71,9 +74,9 @@ sudo python3 touch_judge_nfctag.py
 例:
 ```
 ◆ カードを検知しました ◆
-  [ATR値]   : 3B 8F 80 01 ...
-  [規格] : FeliCa (ISO/IEC 18092 / Type F)
-  [IDm番号] : 0123456789ABCDEF
+  [ATR値]   : 3B 8F 80 01 80 ...
+  [規格] : ISO/IEC 14443 Type A
+  [UID番号] : 044C90F2935C80
 --------------------------------------------------
 ```
 
